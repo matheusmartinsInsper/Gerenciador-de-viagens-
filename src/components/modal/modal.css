@@ -1,0 +1,47 @@
+#backgroundModal {
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(38,38,38,0.3);
+   
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#modal {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    width: 450px;
+    height:260px;
+    background-color: whitesmoke;
+    border-radius: 10px;  
+}
+#contentModal {
+    width: 450px;
+    height:110px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#buttonsModal {
+    height:50px;
+    padding: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: space-around
+}
+#buttonsModal>button {
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;  
+    border: none;
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+    cursor: pointer;
+    transition: 0.1s ease
+}

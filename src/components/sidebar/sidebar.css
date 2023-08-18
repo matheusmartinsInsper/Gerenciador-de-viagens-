@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#Sidebar {
+    height: 100vh;
+    width: 250px;
+    color: #16C79A;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden
+}
+#iconsSidebar {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#iconsSidebarRight {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#Sidebar>div>ul>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    
+}
+
+#logoSidebar {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px
+}
+#logoSidebar>h3 {
+    color: whitesmoke
+}
+#existSidebar {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center 
+}
+#Sidebar>div>ul>li>button {
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 5vh 2vh;
+    background-color: #262626;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #262626;
+    border-radius: 5px;
+    transition: 0.1s ease;
+}
+#Sidebar>div>ul>li>button:hover {
+    border: 2px solid #16C79A;
+    border-radius: 5px;
+    transition: -.4s ease
+}
+#Sidebar>div>ul>li>button:focus {
+    background-color: #16C79A;
+    border: 2px solid #16C79A;
+}
+#exist {
+      font-weight: 600;
+      color: #EEEEEE;
+      font-size: 16px;
+      width: 70px;
+      heigth: 40px;
+      padding:8px;
+      background-color: #16C79A;
+      border: 2px solid #16C79A;
+      border-radius: 5px;
+      display: flex;
+      justify-content: Center;
+      align-items: center;
+      margin: 0px 20px;
+      cursor: pointer
+}
+#gabSection {
+    height: 1px;
+    width: 210px ;
+    background-color: #16C79A
+}

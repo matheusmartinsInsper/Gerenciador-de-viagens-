@@ -1,0 +1,116 @@
+#login {
+    width: 335px;
+    height: 470px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 10px #262626;
+    padding:0px 10px
+  }
+  #login>div{
+      margin: 15px
+  }
+  #linklogin {
+      color: #EEEEEE;
+  }
+  #login>div>ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+   
+  #login>div>ul>li>input {
+      color: black;
+      width: 230px;
+      heigth: 60px;
+      padding:10px;
+      background-color: #EEEEEE;
+      border: 1.5px solid #262626;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: Center;
+      align-items: center;
+      margin: 10px 20px
+    }
+    #login>div>ul>li>input:focus {
+      outline: 1px solid #16C79A;
+      border: 1.5px solid #16C79A
+    }
+  .inputislogin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  #login>div>h3 {
+      font-size: 29px;
+      margin: 0px;
+      color: #262626
+    }
+  #login>div>button {
+      font-weight: 600;
+      color: #EEEEEE;
+      width: 105px;
+      heigth: 45px;
+      padding:12px;
+      background-color: #16C79A;
+      border: 2px solid #16C79A;
+      border-radius: 10px;
+      display: flex;
+      justify-content: Center;
+      align-items: center;
+      margin: 0px 20px
+  }
+  #login>div>button:hover{
+      cursor: pointer
+  }
+  #buttonslogin {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  #forms {
+      display: flex
+  }
+  #forms>div {
+      display: flex;
+      margin: 8px 0px 0px 0px
+  }
+  #forms>div>input {
+      margin: 0px 8px;
+      
+  }
+  #imagApresentation {
+      width: 100%;
+  
+  }
+  #telalogin {
+      background-color: #262626
+  }
+  #apresentation {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      
+  }
+  #textapresentation {
+      font-size: 43px;
+      margin-bottom: -10px;
+      font-family: 'Poppins', sans-serif;
+  }
+  #redrectuser {
+      margin: 8px
+  }
+  .iconsmenu {
+      width: 40%
+  }
+  @media (max-width: 1200px) {
+      /* Estilos aplicados quando a largura da tela for no máximo 768 pixels */
+      .iconsmenu {
+          width: 300px
+      }
+    }

@@ -1,0 +1,187 @@
+.fretesUser {
+    height: 64vh;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 30% auto;
+    border: 1px solid #EEEEEE;
+    overflow: hidden
+}
+.freteUserRight{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 10px 20px 20px;
+    border-left: 1px solid #EEEEEE
+}
+.freteUserLeft {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 0px 5px
+}
+.freteUserLeft::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+  }
+  
+.freteUserLeft::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do botão de rolagem */
+    border-radius: 10px; /* Raio de borda do botão de rolagem */
+    height: 10px
+  }
+  
+.freteUserLeft::-webkit-scrollbar-track {
+    background-color: whitesmoke; /* Cor do fundo da barra de rolagem */
+  }
+.freteSelect {
+  width: 80%;
+  height:15vh;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #454545;
+  margin: 5px 0px;
+  display: flex;
+  transition: 0.1s ease;
+  cursor: pointer;
+ 
+}
+.freteSelect:hover {
+    margin-left: 10px;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 5px #454545;
+}
+#detailLeftFrete {
+    width: 5px;
+    height: 15vh;
+    border-radius: 5px 0px 0px 5px;
+}
+.contentFreteSelect {
+    height: 15vh;
+    padding: 5px 10px;
+    overflow: hidden
+}
+.contentFreteSelect>p {
+    z-index: 1px
+}
+.inputsDetailsData {
+    font-size: 16px;
+    border: none;
+    box-shadow: 1px 1px 4px grey;
+    outline: none;
+    padding: 0px 10px ;
+    width: 240px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    cursor: pointer
+}
+.inputsDetailsData:focus {
+    outline: 1px solid #16C79A;
+    box-shadow: 1px 1px 4px #16C79A;
+}
+.freteUserRight>div {
+    padding: 3px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    height: 9vh;
+}
+.freteUserRight>footer {
+    padding: 3px;
+    height: 9vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end
+}
+.freteUserRight>footer>button {
+    margin-right: 30px;
+    margin-left: 10px
+}
+.deletarFreteButton {
+    font-weight: 500;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    background-color: #FF0032;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #FF0032;
+    transition: 0.1s ease
+}
+.deletarFreteButton:hover {
+    
+    background-color: whitesmoke;
+    color: #FF0032;
+    transition: 0.2s ease
+}
+.atualizarFreteButton {
+    font-weight: 500;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    background-color: #4942E4 ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #4942E4;
+    transition: 0.1s ease
+}
+.atualizarFreteButton:hover {
+    background-color: whitesmoke;
+    color: #4942E4;
+    transition: 0.2s ease
+}
+.arrayDetailsFretes {
+    padding-left: 15px;
+    overflow: hidden;
+    overflow-y: scroll;   
+}
+.arrayDetailsFretes::-webkit-scrollbar {
+    width: 4px; /* Largura da barra de rolagem */
+  }
+  
+.arrayDetailsFretes::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do botão de rolagem */
+    border-radius: 10px; /* Raio de borda do botão de rolagem */
+    height: 10px
+  }
+  
+.arrayDetailsFretes::-webkit-scrollbar-track {
+    background-color: whitesmoke; /* Cor do fundo da barra de rolagem */
+  }
+#cargaUnic {
+    width: 70px;
+    height: 30px;
+    padding: 2px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 4px grey;
+    cursor: pointer;
+}
+.labelCargas {
+    width: 70px;
+    height: 30px;
+    padding: 2px;
+    
+    border: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
